@@ -1,0 +1,30 @@
+.container {
+    padding: 50px;
+    display: flex;
+}
+
+.item {
+    flex: 1;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 20px;
+    text-align: left;
+}
+
+.btn {
+    border: 0;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn:first-child {
+    background-color: teal;
+}
+
+.btn:last-child {
+    background-color: crimson;
+}
